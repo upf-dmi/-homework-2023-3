@@ -357,7 +357,7 @@ display: none;
 
 <h1 class="title toc-ignore">dummy title</h1>
 <h4 class="author">dummy name (<a href="mailto:dummy@mail.com" class="email">dummy@mail.com</a>)</h4>
-<h4 class="date">Last update: 05 febrero, 2023</h4>
+<h4 class="date">Last update: 06 febrero, 2023</h4>
 
 </div>
 
@@ -403,7 +403,7 @@ are</p>
 splitting.<br />
 Do not forget to perform feature selection!<br />
 You can use as examples the <a href="https://hastie.su.domains/ISLR2/Labs/Rmarkdown_Notebooks/Ch3-linreg-lab.html">Linear
-Regression Lab</a> and the section related to feature selection from <a href="https://hastie.su.domains/ISLR2/Labs/Rmarkdown_Notebooks/Ch6-varselect-lab.htmls">Lab:
+Regression Lab</a> and the section related to feature selection from <a href="https://hastie.su.domains/ISLR2/Labs/Rmarkdown_Notebooks/Ch6-varselect-lab.html">Lab:
 Linear Models and Regularization Methods</a> from the book <a href="https://www.statlearning.com/">An Introduction to Statistical
 Learning</a>.</p>
 </div>
@@ -426,7 +426,7 @@ perimeter, area, and more). Diagnosis for each image was conducted by
 physicians.</p>
 <p>Do not forget to perform hyperparameter tuning!<br />
 Which of all models performs better for this data? Discuss.</p>
-<p>Generate a ROC curve for the best performing model.</p>
+<p>Generate a ROC curve for all the models.</p>
 <p>You can use as a guide the analysis of this dataset included in the
 <a href="https://datasciencebook.ca/classification1.html">chapter 5</a>
 of the Data Science, A First Introduction Book. Additionally, for
@@ -435,18 +435,27 @@ post</a></p>
 </div>
 <div id="exercise-3" class="section level1">
 <h1>Exercise 3</h1>
-<p>Use <a href="https://www.genome.gov/Funded-Programs-Projects/Cancer-Genome-Atlas">TCGA</a>
-gene expression data of two different cancer types to build a machine
-learning model that identifies whether one unknown sample belongs to one
-or the other. For this task, you should retrieve the TCGA data from the
-<a href="https://portal.gdc.cancer.gov/">Genomic Data Commons Data
+<p>Use <a href="https://www.genome.gov/Funded-Programs-Projects/Cancer-Genome-Atlas">The
+Cancer Genome Atlas (TCGA)</a> gene expression data of two different
+cancer types to build a machine learning model that identifies whether
+one unknown sample belongs to one or the other. The TCGA is a
+comprehensive and coordinated effort to accelerate our understanding of
+the molecular basis of cancer through the application of genome analysis
+technologies, including large-scale genome sequencing. The program has
+generated, analyzed, and made available genomic sequence, expression,
+methylation, and copy number variation data on over 11,000 individuals
+who represent over 30 different types of cancer. After building your
+model, you should predict the cancer types for <a href="data/unknwown_samples.tsv">10 unkwnon samples</a>.</p>
+<p>For this task, you should retrieve the TCGA data from the <a href="https://portal.gdc.cancer.gov/">Genomic Data Commons Data
 Portal</a>. If necessary you can watch the video uploaded in the Campus
-Global. Each team will work with two specific cancer type, that will be
-assigned in class.<br />
-Important notice: if you do not have a lot of hard drive space in your
-laptop, you can modify the manifest file to download only 50 samples per
-cancer types. As part of the assignment, you should provide the input
-data fed to the machine learning algorithm as a tsv file.</p>
+Global. The video assumes that you have previously installed the <a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool">GDC
+data transfer tool</a>.</p>
+<p>Each team will work with two specific cancer types, that will be
+assigned in class.</p>
+<p>Important notice: if you do not have a lot of hard drive space in
+your laptop, you can modify the manifest file to download only 50
+samples per cancer types. As part of the assignment, you should provide
+the input data fed to the machine learning algorithm as a tsv file.</p>
 </div>
 <div id="session-info" class="section level1 unnumbered">
 <h1 class="unnumbered">session info</h1>
